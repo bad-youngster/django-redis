@@ -1,0 +1,52 @@
+.container { width: auto}
+.container .header {background-color: darkgray}
+.container .menu {margin: 0;padding: 0;background-color:#f2f2f2;overflow: hidden;}
+.container .menu li input{position: absolute;left: 0;opacity: 0;z-index: 2;cursor: pointer;height: 1em;width:1em;top: 0;}
+.container .menu {background-color: darkgray;height: 850px;width: auto;float: left;}
+.container .menu{margin: 0;padding: 0;background-color:#f2f2f2;overflow: hidden;}
+.container .menu li {position: relative;list-style: none;}
+.container .menu>li{border-bottom: 1px solid #d9d9d9;}
+.container .menu li label {max-width:999px;cursor: pointer;display: block;margin:0 0 0 -50px;padding: 15px 10px 15px 70px;background: url(../../images/cp-detail-arrow-b.png) no-repeat right center;background-position:95% 50%;white-space:nowrap;overflow:hidden;text-overflow: ellipsis; }
+.container .menu li label:hover,li label:focus{background-color:#a7a7a7;color:#fff;}
+.container .menu li input + ol{display: none;}
+.container .menu input:checked + ol {padding-left:14px;height: auto;display: block;}
+.container .menu input:checked + ol > li { height: auto;}
+.container .menu li.file a{margin:0 -10px 0 -50px;padding: 15px 20px 15px 70px;text-decoration:none;display: block;color:#333333;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;}
+.container .menu li.file a:hover,li.file a:focus{background-color:#a7a7a7;color:#fff;}
+.container .menu .folderOne{font-size: 18px;}
+.container .menu .folderTwo{font-size:16px;}
+.container .menu .folderThree{font-size:14px;}
+.container .footer {background-color: cornflowerblue;clear:both;text-align:center;}
+.container .content {background-color: white;height: auto;width: auto;float: left;}
+
+.container .header{
+    clear: left;
+    float: left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+
+
+.container .header li{
+    line-height: 25px;
+    margin: 0 5px;
+    display: block;
+    float: left;
+    position: relative;
+    right: 50%;
+}
+.container .header a{
+    display: block;
+    color: #f2f2f2;
+    text-shadow: 1px 0 0 #101011;
+    padding: 0 10px;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 #5a5b5c inset,0 1px 0 #080808;
+    background: linear-gradient(top,#434345,#2f3032);
+}
+.container .header a:hover{
+    text-decoration: none;
+    box-shadow: 0 1px 0 #f9bd71 inset,0 1px 0 #0a0a0a;
+    background: linear-gradient(top,#f48b03,#c87100);
+}

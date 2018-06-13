@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <title>运维管理平台</title>
+    <!-- css -->
+    <link rel="stylesheet"  href="{% static 'css/style.css' %}">
+    <!-- javascript-->
+    <script src="{% static 'javascript/jsFront.js' %}"></script>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="header" >
+        <li><a>首页</a></li>
+        <li><a>首页</a></li>
+{#        <li><a>首页</a></li>#}
+{#       <li><a>首页</a></li>#}
+{#       <li><a>首页</a></li>#}
+{#        <li><a>首页</a></li>#}
+    </div>
+
+    <div class="menu" >
+        <li>
+           <label for="folder1" class="folderOne">第一层菜单</label> <input type="checkbox" id="folder1" />
+            <ol>
+                <li>
+                    <label for="subfolder1"class="folderTwo">开发规范</label>
+                    <input type="checkbox" id="subfolder1"  />
+                    <ol>
+                        <li class="file folderThree"><a href="#">常见界面错误举例</a></li>
+                        <li class="file folderThree"><a href="#">关于发行报告对BUG管理提出…</a></li>
+                        <li class="file folderThree"><a href="#">插件内部JAVA包命名规范</a></li>
+                    </ol>
+                </li>
+                <li class="file folderTwo"><a href="#">概述</a></li>
+                <li class="file folderTwo"><a href="#">服务器集群</a></li>
+                <li class="file folderTwo"><a href="#">模板</a></li>
+                <li class="file folderTwo"><a href="#">安全机制</a></li>
+            </ol>
+        </li>
+        <li>
+           <label for="folder2" class="folderOne" >第一层菜单</label> <input type="checkbox" id="folder2" />
+           <ol>
+               <li>
+                   <label for="subfolder2" class="folderTwo">实时数据</label>
+                   <input type="checkbox" id="subfolder2"/>
+                   <ol>
+                       <li class="file folderThree"><a href="#">实时数据</a></li>
+                       <li class="file folderThree"><a href="#">实时数据</a></li>
+                       <li class="file folderThree"><a href="#">实时数据</a></li>
+                   </ol>
+               </li>
+
+               <li>
+                   <label for="subfolder3" class="folderTwo">实时数据</label>
+                   <input type="checkbox" id="subfolder3"/>
+                   <ol>
+                       <li class="file folderThree"><a href="#">实时数据</a></li>
+                       <li class="file folderThree"><a href="#">实时数据</a></li>
+                       <li class="file folderThree"><a href="#">实时数据</a></li>
+                   </ol>
+               </li>
+           </ol>
+        </li>
+        <li>
+               <label for="folder3"  class="folderOne">第一层菜单</label> <input type="checkbox" id="folder3" />
+               <ol>
+                   <li class="file folderTwo"><a href="#">实时数据</a></li>
+                   <li class="file folderTwo"><a href="#">实时数据</a></li>
+               </ol>
+           </li>
+           <li>
+               <label for="folder4"  class="folderOne">第一层菜单</label> <input type="checkbox" id="folder4"/>
+               <ol>
+                   <li class="file folderTwo"><a href="#">实时数据</a></li>
+                   <li class="file folderTwo"><a href="#">实时数据</a></li>
+               </ol>
+           </li>
+           <li>
+               <label for="folder5"  class="folderOne">第一层菜单</label> <input type="checkbox" id="folder5"/>
+               <ol>
+                   <li class="file folderTwo"><a href="#">实时数据</a></li>
+                   <li class="file folderTwo"><a href="#">实时数据</a></li>
+               </ol>
+           </li>
+    </div>
+
+    <div class="content" >
+        这里是展示页面
+    </div>
+    <div class="footer" >
+        网站底部
+    </div>
+</div>
+
+
+</body>
+</html>
